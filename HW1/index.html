@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        nav {
+            margin-bottom: 100px;
+        }
+        ul {
+            padding: 30px 350px;
+            display: flex;    
+            justify-content: space-between;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        table {
+            margin: auto;
+        }
+        caption {
+            padding: 20px;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="./contacrt.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <table>
+        <caption>This is caption...</caption>
+        <tr>
+            <th colspan="2" scope="colgroup"></th>   
+            <th scope="col">Name</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Color</th>
+            <th scope="col">Shape</th>
+        </tr>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup" colspan="2">Fruits</th>
+                <th scope="row">Apple</th>
+                <td>0.330</td>
+                <td>Green</td>
+                <td>Round</td>
+            </tr>
+            <tr>
+                <th scope="row">Orange</th>
+                <td>0.330</td>
+                <td>Orange</td>
+                <td>Round</td>
+            </tr>
+            <tr>
+                <th scope="row">Peach</th>
+                <td>0.330</td>
+                <td>Peach</td>
+                <td>Round</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="row">Vegetables</th>
+                <th rowspan="2" scope="rowgroup">From local Store</th>
+                <th scope="row">Tomato</th>
+                <td>0.330</td>
+                <td>Red</td>
+                <td>Round</td>
+            </tr>
+            <tr>
+                <th scope="row">Carrot</th>
+                <td>0.330</td>
+                <td>Orange</td>
+                <td>Long</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    
+</body>
+</html>
